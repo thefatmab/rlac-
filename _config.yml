@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Fatma Albastaki"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Legal Studies student at NYU Abu Dhabi exploring computational text analysis, digital humanities, and critical reading practices. Interested in how data and interpretation intersect."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
