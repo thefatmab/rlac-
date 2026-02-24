@@ -88,10 +88,10 @@ footer:
       url: "https://instagram.com/"
 
 defaults:
-  # _posts
+  # _Assignments 
   - scope:
       path: ""
-      type: posts
+      type: Assignments  
     values:
       layout: single
       author_profile: true
