@@ -99,9 +99,9 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # _Responses 
   - scope:
-      path: "_pages"
+      path: "_Responses"
       type: pages
     values:
       layout: single
