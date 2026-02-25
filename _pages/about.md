@@ -24,6 +24,8 @@ date: 2026-02-25
     Figure 1: Cirrus Word Cloud
     The Cirrus word cloud reveals that “dumbledore” appears prominently across the corpus. Institutional markers such as “professor” and “ministry” are also visually dominant, particularly in canonical texts. Interestingly, in Twin Sister, character-specific names rise to prominence, signaling a shift toward identity-centered reinterpretation.
     The word cloud confirms that authority figures remain lexically central across both canon and fan fiction. However, prominence alone does not indicate whether authority is affirmed, questioned, or reconfigured.
+
+![Figure 1: Word Cloud](/assets/images/fig1-voyant-wordcloud.png)  
     Figure 1. Most frequent terms across the five-text corpus (Voyant Cirrus).
 
     Figure 2: Term Trends
@@ -39,6 +41,7 @@ date: 2026-02-25
     These patterns suggest that canonical texts foreground institutional structures, while fan fiction introduces relational language. However, the persistence of institutional terms in fan works challenges the assumption that fan fiction dismantles authority outright.
     The Trends visualization reveals something that close reading might not quantify easily: structural continuity across textual transformations.
 
+![Figure 2: Term Trends](/assets/images/fig2-trends.png)
     Figure 2. Relative frequency of selected keywords across canonical and fan fiction texts.
 
     Figure 3: Bubblelines (Dumbledore Distribution)
@@ -46,7 +49,13 @@ date: 2026-02-25
     This is a crucial finding. If fan fiction sought to displace institutional authority, we might expect diminished lexical centrality of key authority figures. Instead, authority persists lexically.
     Yet frequency does not capture tone. As Kestemont and Herman argue in “Can Computers Read (Literature)?”, computational tools measure textual features but cannot interpret irony, skepticism, or critique. A frequent name may signal reverence, subversion, or narrative dependency. Distant reading identifies structural presence, not evaluative stance.
 
+![Figure 3: Bubblelines for “Dumbledore”](/assets/images/fig3-bubblelines.png)
+![Figure 3: Bubblelines for “Dumbledore”](/assets/images/fig3-2bubblelines.png)
     Figure 3. Distribution of the term “dumbledore” across the corpus.
+
+Interactive Voyant Visualization
+<iframe style='width: 100%; height: 800px;' src='https://voyant-tools.org/?panels=cirrus%2Creader%2Ctrends%2Csummary%2Ccontexts&corpus=5f1008ebba61f03f42e70984179b2c82'></iframe> 
+
 
     R Analysis: Institutional vs. Agency Vocabulary
     To move beyond exploratory visualization, we implemented structured comparison in R.
@@ -56,6 +65,7 @@ date: 2026-02-25
     Agency markers increase modestly in fan fiction, but not dramatically. The difference is present yet nuanced.
     This challenges my initial hypothesis. Fan fiction does not simply replace institutions with individual choice; it repositions authority within altered narrative frameworks.
 
+![Figure 4: Institutional vs Agency Counts](/assets/images/fig4-bar.png)
     Figure 4. Comparison of institutional and agency word counts by text.
 
     Figure 5: Heatmap (Normalized Frequency per 10,000 Words)
@@ -67,6 +77,7 @@ date: 2026-02-25
     Agency markers remain comparatively low overall.
     Normalization confirms structural continuity across canon and fandom. Authority is not erased; it is reinterpreted.
 
+![Figure 5: Normalized Frequency Heatmap](/assets/images/fig5-heatmap.png) 
     Figure 5. Normalized keyword frequency (per 10,000 words) across texts.
 
     What Computational Analysis Reveals
@@ -92,9 +103,13 @@ date: 2026-02-25
 
     Works Referenced
     Underwood, Ted. Distant Horizons: Digital Evidence and Literary Change. Chapter “The Risks of Distant Reading.”
+
     Kestemont, Mike, and Luc Herman. “Can Computers Read (Literature)?”
+
     Hermeneutica. Chapter 2, “How Computers Measure Words.”
+
     “The Pitfalls of Using Google Ngram.”
+
     “People Don’t Read But LLMs Do.”
 
 
