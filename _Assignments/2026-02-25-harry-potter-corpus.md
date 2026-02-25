@@ -54,6 +54,9 @@ Yet frequency does not capture tone. As Kestemont and Herman argue in “Can Com
 ![Figure 3: Bubblelines for “Dumbledore”](/assets/images/fig3-2bubblelines.png)
 Figure 3. Distribution of the term “dumbledore” across the corpus.
 
+## Interactive Voyant Visualization
+<iframe style='width: 100%; height: 800px;' src='https://voyant-tools.org/?panels=cirrus%2Creader%2Ctrends%2Csummary%2Ccontexts&corpus=5f1008ebba61f03f42e70984179b2c82'></iframe> 
+
 ## R Analysis: Institutional vs. Agency Vocabulary
 To move beyond exploratory visualization, we implemented structured comparison in R.
 After tokenization and stopword removal, we calculated word counts by text and normalized frequencies per 10,000 words. This normalization accounts for variation in text length, preventing longer works from skewing raw counts.
