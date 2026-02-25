@@ -103,9 +103,13 @@ By pairing Voyant exploration, R-based modeling, and theoretical reflection, thi
 
 ## Works Referenced
 Underwood, Ted. Distant Horizons: Digital Evidence and Literary Change. Chapter “The Risks of Distant Reading.”
+
 Kestemont, Mike, and Luc Herman. “Can Computers Read (Literature)?”
+
 Hermeneutica. Chapter 2, “How Computers Measure Words.”
+
 “The Pitfalls of Using Google Ngram.”
+
 “People Don’t Read But LLMs Do.”
 
 
