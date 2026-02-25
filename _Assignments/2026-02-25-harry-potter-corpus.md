@@ -5,33 +5,34 @@ layout: Assignments
 ---
 ## Introduction
 
-    In what ways does power move between fan-made and canonical narratives? Do fan fiction works replicate and reinterpret institutional authority, or do they undermine it? Prior to starting this study, we believed that fan fiction would place more focus on human agency, interpersonal relationships, and decision-making, whereas official Harry Potter novels would prioritize institutional authority—Hogwarts, academics, and the Ministry of Magic. Our working hypothesis was that fan fiction would have a greater proportionate frequency of language connected to agency, whereas canon would be dominated by linguistic indications of institutional authority.
-    We created a five-text corpus of three fan fiction pieces (Twin Sister, Adoptive Kaiju, and Resurrection) and two canonical novels (Harry Potter and the Sorcerer's Stone and Harry Potter and the Deathly Hallows) in order to verify this hypothesis. First, using Voyant Tools for exploratory remote reading and RMarkdown in posit. We examined the distribution and relative frequency of words connected to institutions and agencies throughout the corpus using cloud for structured lexical comparison.
-    The anticipated conflict between canon and fandom is complicated by what unfolded. Even in transformational fan tales, institutional authority continues to play a major role in vocabulary. Fan fiction seems to restructure institutional authority inside modified narrative frameworks rather than substituting simply individualistic autonomy for formal power frameworks.
+In what ways does power move between fan-made and canonical narratives? Do fan fiction works replicate and reinterpret institutional authority, or do they undermine it? Prior to starting this study, we believed that fan fiction would place more focus on human agency, interpersonal relationships, and decision-making, whereas official Harry Potter novels would prioritize institutional authority—Hogwarts, academics, and the Ministry of Magic. Our working hypothesis was that fan fiction would have a greater proportionate frequency of language connected to agency, whereas canon would be dominated by linguistic indications of institutional authority.
+
+We created a five-text corpus of three fan fiction pieces (Twin Sister, Adoptive Kaiju, and Resurrection) and two canonical novels (Harry Potter and the Sorcerer's Stone and Harry Potter and the Deathly Hallows) in order to verify this hypothesis. First, using Voyant Tools for exploratory remote reading and RMarkdown in posit. We examined the distribution and relative frequency of words connected to institutions and agencies throughout the corpus using cloud for structured lexical comparison.
+
+The anticipated conflict between canon and fandom is complicated by what unfolded. Even in transformational fan tales, institutional authority continues to play a major role in vocabulary. Fan fiction seems to restructure institutional authority inside modified narrative frameworks rather than substituting simply individualistic autonomy for formal power frameworks.
 
 ## Corpus and Methodological Design
 
-    This project combines exploratory and confirmatory computational methods. Voyant Tools enabled rapid visualization of word frequency (Cirrus), term trends across documents, and keyword distribution (Bubblelines). These tools function as exploratory instruments, surfacing patterns that may not be immediately visible through linear reading.
-    RMarkdown was then used to tokenize the corpus, remove stopwords, normalize word frequencies, and group selected terms into conceptual categories. Following the explanation in Hermeneutica, Chapter 2 (“How Computers Measure Words”), computational text analysis operates by abstracting literature into tokens. Words become measurable units divorced from syntactic and narrative context. This transformation makes cross-text comparison possible, but it also risks oversimplifying meaning.
-    To examine how authority circulates, we constructed two lexical categories:
-    Institutional terms: dumbledore, professor, ministry, headmaster, authority
-    Agency terms: choose, decide, control, plan, trust, love
-    These categories allowed structured comparison across texts while remaining aware that lexical grouping is itself an interpretive act.
+This project combines exploratory and confirmatory computational methods. Voyant Tools enabled rapid visualization of word frequency (Cirrus), term trends across documents, and keyword distribution (Bubblelines). These tools function as exploratory instruments, surfacing patterns that may not be immediately visible through linear reading.
+RMarkdown was then used to tokenize the corpus, remove stopwords, normalize word frequencies, and group selected terms into conceptual categories. Following the explanation in Hermeneutica, Chapter 2 (“How Computers Measure Words”), computational text analysis operates by abstracting literature into tokens. Words become measurable units divorced from syntactic and narrative context. This transformation makes cross-text comparison possible, but it also risks oversimplifying meaning.
+To examine how authority circulates, we constructed two lexical categories:
+Institutional terms: dumbledore, professor, ministry, headmaster, authority
+Agency terms: choose, decide, control, plan, trust, love
+These categories allowed structured comparison across texts while remaining aware that lexical grouping is itself an interpretive act.
 
 ## Voyant Insights: Lexical Prominence and Structural Authority
 
-    Figure 1: Cirrus Word Cloud
-    The Cirrus word cloud reveals that “dumbledore” appears prominently across the corpus. Institutional markers such as “professor” and “ministry” are also visually dominant, particularly in canonical texts. Interestingly, in Twin Sister, character-specific names rise to prominence, signaling a shift toward identity-centered reinterpretation.
-    The word cloud confirms that authority figures remain lexically central across both canon and fan fiction. However, prominence alone does not indicate whether authority is affirmed, questioned, or reconfigured.
-    Figure 1. Most frequent terms across the five-text corpus (Voyant Cirrus).
+Figure 1: Cirrus Word Cloud
+The Cirrus word cloud reveals that “dumbledore” appears prominently across the corpus. Institutional markers such as “professor” and “ministry” are also visually dominant, particularly in canonical texts. Interestingly, in Twin Sister, character-specific names rise to prominence, signaling a shift toward identity-centered reinterpretation.
+The word cloud confirms that authority figures remain lexically central across both canon and fan fiction. However, prominence alone does not indicate whether authority is affirmed, questioned, or reconfigured. Figure 1. Most frequent terms across the five-text corpus (Voyant Cirrus).
 
 ## Figure 2: Term Trends
-    The Trends graph compares selected keywords across documents. Several patterns emerge:
-    “Dumbledore” peaks dramatically in Deathly Hallows.
+The Trends graph compares selected keywords across documents. Several patterns emerge:
+“Dumbledore” peaks dramatically in Deathly Hallows.
 
-    “Professor” is most concentrated in Sorcerer’s Stone.
+“Professor” is most concentrated in Sorcerer’s Stone.
 
-    “Family” spikes significantly in Twin Sister.
+“Family” spikes significantly in Twin Sister.
 
 “Plan” remains relatively moderate across texts.
 
