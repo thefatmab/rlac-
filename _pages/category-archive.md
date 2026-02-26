@@ -98,7 +98,7 @@ Focused comparison is made possible by restricting the corpus to five works, alt
 Understanding is shaped by scale. Cross-text comparison is made possible by distant reading, but sophistication is restored by close reading. The most effective strategy alternates between them.
 
 ## Conclusion
-This analysis complicates the assumption that fan fiction displaces institutional authority in favor of personal agency. While relational language increases modestly in fan works, institutional markers—particularly references to Dumbledore—remain structurally central.
+This analysis complicates the assumption that fan fiction displaces institutional authority in favor of personal agency. While relational language increases modestly in fan works, institutional markers particularly references to Dumbledore remain structurally central.
 Distant reading reveals continuity where rupture was expected.
 Yet computational analysis alone cannot determine whether authority is affirmed or subverted. As Underwood reminds us, distant reading identifies patterns but does not interpret them. Interpretation remains human work.
 By pairing Voyant exploration, R-based modeling, and theoretical reflection, this project demonstrates both the utility and the limits of reading like a computer.
