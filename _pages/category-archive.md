@@ -1,7 +1,7 @@
 ---
 title: "Assignment 1: Institutional Language and Narrative Power in Harry Potter Canon and Fan Fiction"
-layout: categories
-permalink: /categories/
+layout: archive
+permalink: /assignments/
 author_profile: true
 ---
 
