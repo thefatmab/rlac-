@@ -1,6 +1,6 @@
 ---
 title: "Responses"
-permalink: /tags/
-layout: tags
+permalink: /responses/
+layout: responses
 author_profile: true
 ---
