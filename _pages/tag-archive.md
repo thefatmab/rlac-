@@ -39,4 +39,3 @@ Do images speak for themselves? According to this experiment, they don't. They d
 
 In conclusion, this process has made me more cautious about visualization-based interpretation. Computational tools are powerful for surfacing patterns, but patterns are not arguments. As Underwood reminds us, distant reading identifies regularities; it does not eliminate the need for critical judgment. My experiment shows that LLMs can assist interpretation, but they can also amplify assumptions. Context does not simply clarify meaning  it shapes and sometimes exaggerates it.
 
-READY FOR GRADING 
