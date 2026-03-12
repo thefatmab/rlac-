@@ -8,6 +8,18 @@ author_profile: true
 ## Response 1: Context, Visualization, and the Risks of Interpretive Inflation 
 
 For this response, I returned to the visualizations I generated for Assignment 1 including a word cloud, a line graph comparing thematic frequencies, and a bar chart contrasting total “agency” and “institution” counts across five Harry Potter texts (canonical novels and fan fiction). I tested how two LLMs, Perplexity AI and Ministerial AI, interpreted these visuals. I first gave them the images with no context, then gradually introduced contextual information. What emerged was not simply an explanation of patterns, but a revealing demonstration of how context shapes and amplifies interpretation. 
+![Word Cloud of Harry Potter Corpus](../assets/images/wordcloud-harrypotter.png)
+
+*Figure 1. Word cloud showing the most frequent words in the Harry Potter corpus. Larger words appear more frequently in the texts.*
+
+![Theme Frequency Line Graph](../assets/images/fanfiction-themes-linegraph.png)
+
+*Figure 2. Relative frequency of themes such as “Dumbledore,” “professor,” “family,” “ministry,” and “plan” across different Harry Potter fan fiction corpora.*
+
+![Agency vs Institution Bar Chart](../assets/images/agency-institution-barchart.png)
+
+*Figure 3. Bar chart comparing the frequency of “agency” and “institution” across several Harry Potter texts.*
+
 
 Both models correctly identified the word cloud in the absence of context: conversation verbs like "said" signal narrative density; character names like "Harry," "Hermione," and "Dumbledore" dominate; and larger words indicate higher frequency. Interpretation was cautious and mostly descriptive at this point. However, both models drastically changed when I included the context that these texts contain fan fiction and canonical Harry Potter novels. Perplexity started recognizing certain books and proposing fan fiction clichés like character backstories and other dimensions. Ministerial AI, while more structured and methodical, also connected frequency patterns to world-building and institutional themes in the wizarding universe.
 
