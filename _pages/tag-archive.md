@@ -22,13 +22,18 @@ For this response, I returned to the visualizations I generated for Assignment 1
 
 
 Both models correctly identified the word cloud in the absence of context: conversation verbs like "said" signal narrative density; character names like "Harry," "Hermione," and "Dumbledore" dominate; and larger words indicate higher frequency. Interpretation was cautious and mostly descriptive at this point. However, both models drastically changed when I included the context that these texts contain fan fiction and canonical Harry Potter novels. Perplexity started recognizing certain books and proposing fan fiction clichés like character backstories and other dimensions. Ministerial AI, while more structured and methodical, also connected frequency patterns to world-building and institutional themes in the wizarding universe.
+![Perplexity AI interpreting word cloud](../assets/images/wordcloud-perplexity1.png)
 
-*Figure 4. Perplexity AI explaining the word cloud visualization when prompted without context.*
+![Perplexity AI interpreting Line Graph](../assets/images/linegraph-perplexity.png)
+
+![Perplexity AI interpreting Bar Chart](../assets/images/wordcloud-perplexity3.png)
+*Figure 4. Perplexity AI explaining the word cloud, line graph, and bar chart visualizations when prompted without context.*
 
 There are no narrative arcs, thematic subtleties, or book-specific metadata in the word cloud itself. However, both LLMs eventually converted statistical recognition into literary significance. Character names served as confirmation of the narrative's emphasis, while large words served as evidence of "central themes." This illustrates a fundamental foundation: significance is equivalent to frequency. Computational tools find patterns, but contextual framing is necessary for interpretation, as Underwood explains in The Risks of Distant Reading. The LLMs unconsciously made an interpretative jump in our experiment, frequently going beyond what the image itself properly allows.
 
 A similar result was obtained from the line graph that compared topic frequencies among corpora. The models described peaks and relative differences in the absence of context. With context, they started making assumptions about reader preferences, fan community tendencies, and authorial purpose. Ministerial AI listed methodological presumptions such theme labeling accuracy and corpus size consistency, framing its interpretation more cautiously. In contrast, perplexity swiftly transitioned into narrative guesswork, proposing that certain fan writers "personalize" or "diversify" canonical themes.
 
+![Perplexity AI interpreting line graph](../assets/images/wordcloud-perplexity2222.png)
 *Figure 5. Perplexity AI generating conclusions about the thematic frequency line graph.*
 
 The bar graph that compared the overall "agency" and "institution" numbers was the most striking. The graphic just demonstrated that, across texts, institutional phrases were more common than agency-related terms. However, both models included philosophical claims: that characters function within structural limitations, that the Harry Potter universe favors systemic power over individual autonomy, and that fan fiction broadens institutional study. Although such claims are acceptable, the chart does not explicitly convey them. 
@@ -47,3 +52,4 @@ Do images speak for themselves? According to this experiment, they don't. They d
 
 In conclusion, this process has made me more cautious about visualization-based interpretation. Computational tools are powerful for surfacing patterns, but patterns are not arguments. As Underwood reminds us, distant reading identifies regularities; it does not eliminate the need for critical judgment. My experiment shows that LLMs can assist interpretation, but they can also amplify assumptions. Context does not simply clarify meaning  it shapes and sometimes exaggerates it.
 
+READY FOR GRADING 
