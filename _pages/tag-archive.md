@@ -37,7 +37,13 @@ A similar result was obtained from the line graph that compared topic frequencie
 *Figure 5. Perplexity AI generating conclusions about the thematic frequency line graph.*
 
 The bar graph that compared the overall "agency" and "institution" numbers was the most striking. The graphic just demonstrated that, across texts, institutional phrases were more common than agency-related terms. However, both models included philosophical claims: that characters function within structural limitations, that the Harry Potter universe favors systemic power over individual autonomy, and that fan fiction broadens institutional study. Although such claims are acceptable, the chart does not explicitly convey them. 
+![Ministerial AI interpreting bar chart](../assets/images/Minesterial-barchart1.png)
 
+![Ministerial AI interpreting bar chart](../assets/images/Minesterial-barchart2.png)
+
+![Ministerial AI interpreting bar chart](../assets/images/Minesterial-barchart3.png)
+
+![Ministerial AI interpreting bar chart](../assets/images/Minesterial-barchart4.png)
 *Figure 6. Ministerial AI interpreting the agency versus institution bar chart.*
 
 This is what I would refer to as interpretative exaggeration. Numerical data acquires rhetorical force once it is displayed. Both human and machine viewers are encouraged to consider patterns as arguments by the visual structure. Without considering how those terms were operationalized, the models assumed that "agency" and "institution" were directly related to autonomy and power structures, respectively. Additionally, they made the assumption that text lengths would be similar and that counting techniques would be uniform. These presumptions influenced the outcomes even though they were occasionally stated clearly (particularly by Ministerial AI).
