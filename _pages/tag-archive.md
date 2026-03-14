@@ -54,7 +54,7 @@ The fact that context promotes interpretative daring is another important findin
 ![Ministerial AI interpretation after context](../assets/images/Minesterial-linegraph4.png)
 
 ![Ministerial AI interpretation after context](../assets/images/Minesterial-barchart4.png)
-*Figure 7. Prompt introducing contextual information about canonical Harry Potter novels and fan fiction.*
+*Figure 7. Prompt introducing contextual information to Ministerial AI about canonical Harry Potter novels and fan fiction.*
 
 Furthermore, my personal perspective was also impacted by this experiment. The models' theme statements seemed intuitively obvious, so at first I found myself agreeing with them. I didn't understand how many inferential steps separated narrative conclusions from raw counts until I gave it some thought. This is consistent with Hermeneutica's explanations of how computers quantify words but not meaning. Although quantification gives the impression of objectivity, interpretation is still a human (or model-driven) process superimposed on statistical structure.
 
