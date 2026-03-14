@@ -49,7 +49,11 @@ The bar graph that compared the overall "agency" and "institution" numbers was t
 This is what I would refer to as interpretative exaggeration. Numerical data acquires rhetorical force once it is displayed. Both human and machine viewers are encouraged to consider patterns as arguments by the visual structure. Without considering how those terms were operationalized, the models assumed that "agency" and "institution" were directly related to autonomy and power structures, respectively. Additionally, they made the assumption that text lengths would be similar and that counting techniques would be uniform. These presumptions influenced the outcomes even though they were occasionally stated clearly (particularly by Ministerial AI).
 
 The fact that context promotes interpretative daring is another important finding from this experiment. Both LLMs remained descriptive in the absence of context. Their interpretations became more certain and genre-aware after learning that the corpus contained both canonical works and fan writing. In example, Perplexity started making references to particular canonical arcs and fan fiction tropes that were not evident in the data. This implies that after basic inputs are presented, LLMs engage probability genre knowledge rather than just analyzing pictures.
+![Ministerial AI interpretation after context](../assets/images/Minesterial-wordchoice4.png)
 
+![Ministerial AI interpretation after context](../assets/images/Minesterial-linegraph4.png)
+
+![Ministerial AI interpretation after context](../assets/images/Minesterial-barchart4.png)
 *Figure 7. Prompt introducing contextual information about canonical Harry Potter novels and fan fiction.*
 
 Furthermore, my personal perspective was also impacted by this experiment. The models' theme statements seemed intuitively obvious, so at first I found myself agreeing with them. I didn't understand how many inferential steps separated narrative conclusions from raw counts until I gave it some thought. This is consistent with Hermeneutica's explanations of how computers quantify words but not meaning. Although quantification gives the impression of objectivity, interpretation is still a human (or model-driven) process superimposed on statistical structure.
