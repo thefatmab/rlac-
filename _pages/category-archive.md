@@ -184,7 +184,11 @@ READY FOR GRADING!
 
 ## Works Cited
 Eder, Maciej. “Does Size Matter? Authorship Attribution, Small Samples, Big Problem.” Digital Scholarship in the Humanities, vol. 30, no. 2, 2015, pp. 167–82.
+
 Herman, David, and Mike Kestemont. “Can Computers Read Literature?” Course reading.
+
 Hermeneutica. Chapter 2, “How Computers Measure Words.” Course reading.
+
 Underwood, Ted. Distant Horizons: Digital Evidence and Literary Change. University of Chicago Press, 2019.
+
 Crymble, Adam. “Building the Invisible College.” Course PDF.
