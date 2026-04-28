@@ -116,3 +116,78 @@ Hermeneutica. Chapter 2, “How Computers Measure Words.”
 
 
 “READY FOR GRADING!” 
+
+
+---
+title: "Assignment 2: Signals in the Noise: Comparing Stylo and TF-IDF in a Mid-Century Science Fiction Corpus"
+layout: archive
+permalink: /assignments/
+author_profile: true
+---
+
+## Introduction
+
+Science fiction often looks coherent when viewed from a bookstore shelf. Readers expect recurring motifs: spaceships, alien worlds, dangerous inventions, ruined futures, authoritarian governments, time travel, and encounters with the unknown. Because of those repeating conventions, it is easy to assume that science fiction writers of the same era must also write in similar ways. This assignment demonstrates that the assumption is misleading. Once computational methods are applied, the genre becomes much more internally diverse. Writers may share subject matter while differing dramatically in sentence habits, vocabulary, pacing, and thematic emphasis.
+This project compares two analytical methods introduced in class: Stylo and TF-IDF. Both examine texts at scale, but they measure different aspects of writing. Stylo, using the R package explored in Posit Cloud, relies heavily on the most frequent words (MFWs) in a corpus. These are usually common grammatical words such as the, and, of, to, and in. Because authors use these words unconsciously and consistently, Stylo is especially useful for identifying stylistic similarity and authorship patterns. TF-IDF, by contrast, reduces the importance of common words and highlights vocabulary that is distinctive within a specific text relative to the corpus. It is therefore better at identifying themes, topics, and semantic emphasis.
+The corpus contains eighteen Project Gutenberg texts by six writers: H.G. Wells, Philip K. Dick, Leigh Brackett, Andre Norton, Henry Kuttner, and Marion Zimmer Bradley. These authors span different decades, national moments, and subgenres. Some write planetary adventure, others invasion fiction, philosophical speculation, or postwar paranoia. Rather than asking only what these stories mean through close reading, this assignment asks a different question: what patterns emerge when machines compare them?
+The answer is not that computers replace reading. Instead, they produce another kind of reading. As we discussed throughout the course, digital humanities tools allow us to detect structures too large or subtle to notice manually. At the same time, they require caution, interpretation, and awareness of limits. This essay argues that Stylo and TF-IDF reveal complementary truths: one maps authorial habit, the other maps thematic imagination.
+
+## The Corpus as Historical Evidence
+Before examining the visualizations, the corpus itself deserves attention. Although grouped under “science fiction,” these texts were not produced under one single historical condition. H.G. Wells belongs to the late nineteenth and early twentieth century, when science fiction often emerged from imperial expansion, industrial modernity, and Darwinian thought. The War of the Worlds and The Island of Doctor Moreau reflect anxieties about invasion, species boundaries, and civilization.
+By contrast, writers such as Philip K. Dick, Andre Norton, Brackett, Bradley, and Kuttner mostly wrote during or after the Second World War and into the Cold War. Their worlds are shaped by nuclear fear, bureaucracy, mechanization, propaganda, militarism, and the possibility that technology might outgrow human control. Science fiction in the 1950s often became a disguised commentary on contemporary life.
+This historical split matters because computational models often capture chronology indirectly. A writer from 1898 may appear distant not because of weaker literary quality, but because syntax, punctuation, and lexical preference differ across eras.
+
+## What Stylo Measures: Writing Without Plot
+Figure 1. Stylo hierarchical cluster analysis using 500 most frequent words.
+Stylo was perhaps the most counterintuitive method used in this course. Human readers often focus on dramatic nouns and verbs: invasion, machine, planet, fear, death. Stylo instead pays attention to words many readers ignore. Yet those small words form patterns of rhythm and grammar that are difficult for writers to consciously disguise.
+The 500 MFW cluster analysis shows several clear groupings. Philip K. Dick’s three texts remain close together. This suggests that despite different plots, Dick uses language in a stable and recognizable manner. Sentence construction, transitions, pronoun usage, or clause patterns may create a consistent fingerprint.
+Andre Norton’s works also cluster tightly. This implies a steady narrative style, perhaps connected to direct prose, adventure pacing, and continuity of narration. Norton’s fiction often emphasizes movement and survival, and that consistency may extend into grammatical habits.
+H.G. Wells appears relatively distant from many later writers. This is unsurprising. His prose belongs to an earlier literary period, and even common-word usage changes historically. Wells therefore becomes an outlier not simply because he is Wells, but because he writes from another linguistic moment.
+The most unstable placement belongs to Henry Kuttner. His texts do not cluster as cleanly as Dick or Norton. There are several plausible explanations. Kuttner worked across multiple genres, including horror and fantasy, and stylistic range can weaken clustering. In addition, one corpus text was co-authored, which complicates stylometric identity by blending signals.
+What Stylo reveals, then, is that genre membership does not erase individuality. Two authors can write science fiction while sounding structurally unlike one another.
+
+## Why Parameter Choice Matters
+One of the strongest lessons from this assignment is that digital results depend on settings. At lower MFW counts such as 100, some clusters were noisier and less convincing. At 500 MFW, authorial patterns became clearer. This supports Maciej Eder’s argument that sample size and feature selection matter deeply in authorship studies.
+A careless reader might assume a dendrogram is objective truth. In reality, it is partly an artifact of methodological decisions: number of words selected, culling percentage, distance measure, and corpus cleaning. This reinforces a broader course theme from our discussions of Google Ngram and Bookworm: tools do not simply reveal patterns—they construct them through design choices.
+
+## What TF-IDF Measures: Distinctive Worlds
+Figure 2. TF-IDF PCA plot showing thematic proximity among texts.
+If Stylo asks who writes alike, TF-IDF asks what kinds of worlds these texts talk about. By down-weighting common words and emphasizing distinctive vocabulary, it maps thematic similarity.
+The PCA visualization shows several compelling relationships. Brackett and Bradley move nearer to one another than they do in Stylo. This likely reflects shared genre vocabulary associated with planetary romance, strange societies, conflict, travel, or exotic landscapes. Their sentence habits may differ, but their imaginative lexicons overlap.
+Philip K. Dick remains somewhat coherent here as well. His fiction repeatedly circles war systems, defensive structures, paranoia, machinery, and unstable human identity. This suggests that Dick possesses both a stylistic signature and a thematic signature.
+H.G. Wells again appears separate, but for different reasons than in Stylo. Here the separation likely emerges from vocabulary fields linked to evolution, invasion, vivisection, empire, or civilization. He is not merely stylistically older; he is lexically tied to earlier scientific concerns.
+Andre Norton often occupies a space associated with travel, danger, exploration, and survival. Her works may cluster because of recurring adventure vocabulary rather than grammar.
+TF-IDF therefore shows that science fiction contains multiple subgenres operating under one umbrella label. “Science fiction” is less a single mode than a coalition of narrative interests.
+
+## Where the Methods Disagree
+The richest interpretive moments occur when the two models disagree. If Brackett and Bradley are close in TF-IDF but not in Stylo, that suggests shared themes without shared voice. If Kuttner is unstable in Stylo but more coherent in TF-IDF, it suggests changing prose habits inside a relatively consistent thematic zone.
+These disagreements matter because they challenge the simplistic claim that style and content are fully separable. In theory, one can measure grammar separately from vocabulary. In practice, literature blends them constantly. A paranoid theme may produce abrupt syntax. Expansive world-building may generate descriptive sentence forms. Adventure pacing may shorten clauses. Form and content influence one another.
+This is why digital humanities works best when methods are compared rather than used alone.
+
+## Reading the Cold War Through Data
+This corpus also taught me something about the historical imagination of the 1950s. Even without close reading of every text, patterns suggest recurring postwar anxieties. Dick’s concentration around defense, systems, and control reflects fears of depersonalized institutions. Norton’s exploratory plots reflect mobility and frontier logic. Brackett and Bradley show continued attraction to off-world societies and alternate orders. Wells remains the ancestor whose earlier fears—species collapse, invasion, scientific arrogance—still echo later in the genre.
+Science fiction thus becomes a record of changing modern fears. Computational analysis cannot feel those fears, but it can show their lexical repetition.
+
+## Underwood and the Limits of Distant Reading
+Ted Underwood’s The Risks of Distant Reading was especially relevant here. He warns that quantitative methods can create overconfidence. A cluster does not explain irony, emotion, symbolism, or reader experience. It cannot tell us whether a machine in Dick is tragic, comic, or sacred. It only tells us that related words recur.
+That warning is essential. TF-IDF might highlight the word war, but it cannot know whether the text glorifies war or condemns it. Stylo can group two authors, but it cannot explain why their voices feel emotionally different.
+Yet Underwood does not argue that distant reading is useless. Rather, he asks scholars to use it responsibly. That is the best framework for this assignment. These methods are powerful when paired with interpretation, historical context, and skepticism.
+
+## New Literacies from the Course
+This project also reflects the broader technical skills developed throughout the semester. GitHub Pages, Markdown, Posit Cloud, Voyant Tools, and static site publishing changed what literary work can look like. Scholarship is no longer only essays in Word documents. It can involve repositories, reproducible notebooks, visual argumentation, and public-facing websites.
+That shift requires new literacies. Students must learn not only to interpret texts, but to understand datasets, code settings, interface assumptions, and visual rhetoric. Knowing how to read a dendrogram is now as valuable as knowing how to read a paragraph.
+
+## Conclusion
+Comparing Stylo and TF-IDF transformed my understanding of science fiction and of reading itself. I initially expected a relatively unified corpus because all texts belonged to the same genre. Instead, the corpus fragmented into multiple authorial and thematic communities.
+Stylo demonstrated that authors leave stable fingerprints in ordinary language. Dick and Norton cluster strongly, Wells remains historically distant, and Kuttner resists easy categorization. TF-IDF showed that thematic alliances cut across author boundaries: Brackett and Bradley can share imaginative terrain even when they do not share style.
+The most important lesson is that literature contains multiple layers of pattern. Some belong to the author, some to the genre, some to history, and some to chance. No single method captures all of them. But when methods are compared critically, they make hidden structures visible.
+Computers do not read like humans. They do not experience wonder, dread, suspense, or beauty. But they can help humans notice forms of repetition, distance, and similarity that would otherwise remain invisible. Used carefully, computational reading does not diminish literature. It enlarges the ways we can encounter it.
+
+READY FOR GRADING!
+
+## Works Cited
+Eder, Maciej. “Does Size Matter? Authorship Attribution, Small Samples, Big Problem.” Digital Scholarship in the Humanities, vol. 30, no. 2, 2015, pp. 167–82.
+Herman, David, and Mike Kestemont. “Can Computers Read Literature?” Course reading.
+Hermeneutica. Chapter 2, “How Computers Measure Words.” Course reading.
+Underwood, Ted. Distant Horizons: Digital Evidence and Literary Change. University of Chicago Press, 2019.
+Crymble, Adam. “Building the Invisible College.” Course PDF.
