@@ -119,10 +119,7 @@ Hermeneutica. Chapter 2, “How Computers Measure Words.”
 
 
 ---
-title: "Assignment 2: Signals in the Noise: Comparing Stylo and TF-IDF in a Mid-Century Science Fiction Corpus"
-layout: archive
-permalink: /assignments/
-author_profile: true
+## Assignment 2: Signals in the Noise: Comparing Stylo and TF-IDF in a Mid-Century Science Fiction Corpus
 ---
 
 ## Introduction
